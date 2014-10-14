@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/title_detail_textview"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+
+    <include layout="@layout/movie_detail_list_item"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/detail_myreview_title"
+        android:text="@string/detail_myreview_title"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <FrameLayout
+        android:id="@+id/ratingbar_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingbar_fragment"
+        android:layout_gravity="center_horizontal"
+        style="@style/StarRatingBarIndicator"
+        android:numStars="5" />
+    </FrameLayout>
+
+    <TextView
+        style="@style/QuoteTextView"
+        android:id="@+id/detail_myreview_body" />
+</LinearLayout>

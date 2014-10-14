@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Boxotop</string>
+
+    <!--Action bar titles-->
+    <string name="ab_title_boxoffice">BoxOffice</string>
+
+    <!--Menu action titles-->
+    <string name="ic_menu_refresh">refresh</string>
+
+    <!--No network ressources-->
+    <string name="no_network_cache">No network connection available.</string>
+    <string name="no_network">No network connection available. Check your connection </string>
+    <string name="no_network_retry">Retry </string>
+
+    <!--Movie Detail ressources -->
+    <string name="detail_rating_release_date_title">Release Date :</string>
+    <string name="detail_rating_critics_title">Critics</string>
+    <string name="detail_rating_audience_title">Audience</string>
+    <string name="detail_myreview_title">My Review</string>
+    <string name="detail_myreview">My Review :</string>
+    <string name="detail_synopsis">&lt;u>Synopsis&lt;u> :</string>
+    <string name="detail_casting">&lt;u>Casting&lt;u> :</string>
+    <string name="detail_similar_movies">&lt;u>Similar movies&lt;u> :</string>
+    <string name="actor_as"> as </string>
+
+    <!--Rating Dialog ressources -->
+    <string name="rating_dialog_title">Your Rating</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_save">Save</string>
+
+    <!--Date formatting ressources -->
+    <string name="date_format_classic">yyyy/MM/dd</string>
+
+</resources>
